@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="rootPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginController">
+   <children>
+      <Button fx:id="loginButton" alignment="CENTER" layoutX="190.0" layoutY="210.0" mnemonicParsing="false" onMouseClicked="#Login" prefHeight="42.0" prefWidth="74.0" text="Login">
+         <font>
+            <Font size="19.0" />
+         </font></Button>
+      <Label layoutX="60.0" layoutY="23.0" text="Welcome to the Kumbaya ZeroXess" textFill="#004a80">
+         <font>
+            <Font name="Cooper Black" size="27.0" />
+         </font></Label>
+      <Button fx:id="backButton" layoutX="282.0" layoutY="210.0" mnemonicParsing="false" onMouseClicked="#back" prefHeight="42.0" prefWidth="74.0" text="Back" />
+      <Text layoutX="103.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&quot;Closing Africa's connectivity gap to power social and economic progress&quot; " wrappingWidth="467.19219970703125">
+         <font>
+            <Font name="Corbel Light" size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="usernameField" layoutX="199.0" layoutY="123.0" />
+      <Text layoutX="200.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" />
+      <PasswordField fx:id="passwordField" layoutX="199.0" layoutY="174.0" />
+      <Text layoutX="199.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
+
+      <Text fx:id="foutmeldingText" fill="#ff0202" layoutX="199.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" />
+
+
+   </children>
+</AnchorPane>
